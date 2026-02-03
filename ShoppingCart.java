@@ -14,3 +14,16 @@ public class ShoppingCart {
     public void addProduct(Product p) {
         products.add(p);
     }
+        public double calculateTotal() {
+        double total = 0;
+        for (Product p : products) {
+            total += p.getPrice();
+        }
+        return total;
+    }
+
+    // Identity method [cite: 18]
+    public String identifyRole() {
+        return "I am the ShoppingCart Class. I organize products and link them to a specific customer. [cite: 21]";
+    }
+}
