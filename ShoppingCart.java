@@ -21,7 +21,7 @@ public class ShoppingCart {
         }
         return total;
     }
-
+    //
     // Identity method [cite: 18]
     public String identifyRole() {
         return "I am the ShoppingCart Class. I organize products and link them to a specific customer. [cite: 21]";
